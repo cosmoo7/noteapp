@@ -23,8 +23,8 @@ function renderNotes() {
                     </div>
                     <figure class="tag-wrapper"></figure>
                 <div class="note-wrapper">
-                    <h2>${note.title}</h2>
-                    <section>${note.content}</section>
+                    <h2 class="title">${note.title}</h2>
+                    <pre class="content">${note.content}</pre>
                 </div>
             </div>
         `;
