@@ -1,0 +1,4 @@
+.blue {background-color: var(--blue-primary-bg);color: var(--blue-text);}
+.orange {background-color: var(--orange-primary-bg);color: var(--orange-text);}
+.red {background-color: var(--red-primary-bg);color: var(--red-text);}
+.purple {background-color: var(--purple-primary-bg);color: var(--purple-text);}

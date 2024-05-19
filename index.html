@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <title>Notes</title>
+</head>
+
+<body>
+    <button id="add-note" onclick="addNote()" title="Add Note"></button>
+    <header id="header">
+        <h1><span class="slash"><a href="/">/</a></span>Notes</h1>
+        <nav>
+            <button class="deleteAll" title="Delete ALL Notes! Double click to confirm" ondblclick="DeleteAllNotes()"></button>
+        </nav>
+    </header>
+    <div id="notes" class="snaps">
+    </div>
+    <select name="tag">tags
+        <option value="blue">Blgue</option>
+        <option value="blue">Blueg</option>
+        <option value="blue">Belue</option>
+        <option value="blue">Blfue</option>
+        <option value="blue">Bdslue</option>
+    </select>
+    <dialog id="note-modal">
+        <form method="dialog">
+            <input type="text" id="title" placeholder="Title">
+            <textarea id="content" placeholder="Content"></textarea>
+            <input type="submit" id="save-note-button" value="Save"></input>
+        </form>
+    </dialog>
+</body>
+
+</html>

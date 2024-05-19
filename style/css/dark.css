@@ -1,0 +1,54 @@
+:root {
+  color-scheme: dark;
+
+  /* Backgrounds */
+  --primary-header-bg: #181818;
+  --primary-header-bg-semi: #181818ec;
+  --primary-main-bg: #222;
+  --primary-note-bg: #111;
+  --primary-button-bg: #202020;
+  --primary-tag-bg: #050505;
+  --secondary-modal-bg: #3d1320;
+  --primary-modal-bg: rgba(255, 255, 255, 0.075);
+  --primary-modal-border: #072823;
+  --button-active: #383838;
+  --button-delete: #973636;
+  --button-edit: #3e72a3;
+
+  /* Font colors */
+  --default-font-color: #fafafa;
+  --header-font-color: #fafafa;
+  --note-font-color: #f8f8f8;
+
+  /* Borders */
+  --primary-button-border: color-mix(var(--primary-button-bg) 80%, #fff 20%);
+
+  /* Tag Item Colors */
+  --tag-bg-brightness: 20%;
+  --brightness-ratio: 2.8;
+  --text-brightness: calc(var(--tag-bg-brightness) * var(--brightness-ratio));
+
+  /* Purple */
+  --purple-hue: 273;
+  --purple-primary-bg: hsl(var(--purple-hue), 70%, var(--tag-bg-brightness));
+  --purple-hover-bg: ;
+  --purple-text: hsl(var(var(--purple-hue)), 70%, var(--text-brightness));
+
+  /* Blue */
+  --blue-hue: 239;
+  --blue-primary-bg: hsl(var(--blue-hue), 64%, var(--tag-bg-brightness));
+  --blue-hover-bg: ;
+  --blue-text: hsl(var(--blue-hue), 64%, var(--text-brightness));
+
+  /* Orange */
+  --orange-hue: 28;
+  --orange-primary-bg: hsl(28, 90%, var(--tag-bg-brightness));
+  --orange-hover-bg: ;
+  --orange-text: hsl(28, 90%, var(--text-brightness));
+
+  /* Red */
+  --red-hue: 0;
+  --red-primary-bg: hsl(var(--red-hue), 82%, var(--tag-bg-brightness));
+  --red-hover-bg: ;
+  --red-text: hsl(var(--red-hue), 82%, var(--text-brightness));
+}
