@@ -257,7 +257,8 @@ header {
             box-shadow: 0px -2px 0px white inset;
             transition: ease-in;
             transition-property: box shadow color;
-            transition-duration: 400ms;
+            transition-delay: 300ms;
+            transition-duration: 500ms;
             background: transparent;
             &:hover:not(textarea) {
                 &::placeholder{
