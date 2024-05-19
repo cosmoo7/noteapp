@@ -1,7 +1,7 @@
-@import url(/noteapp/keyframes.css);
-@import url(/noteapp/dark.css) (prefers-color-scheme: dark);
-@import url(/noteapp/light.css) (prefers-color-scheme: light);
-@import url(/noteapp/colors.css);
+@import url(keyframes.css);
+@import url(dark.css) (prefers-color-scheme: dark);
+@import url(light.css) (prefers-color-scheme: light);
+@import url(colors.css);
 h1,
 body {
     margin: 0;
