@@ -1,7 +1,7 @@
-@import url(keyframes.css);
-@import url(dark.css) (prefers-color-scheme: dark);
-@import url(light.css) (prefers-color-scheme: light);
-@import url(colors.css);
+@import url(/noteapp/keyframes.css);
+@import url(/noteapp/dark.css) (prefers-color-scheme: dark);
+@import url(/noteapp/light.css) (prefers-color-scheme: light);
+@import url(/noteapp/colors.css);
 h1,
 body {
     margin: 0;
@@ -15,7 +15,7 @@ body {
 
 
 body {
-    background-image: url(/imgs/bg.png);
+    background-image: url(/noteapp/imgs/bg.png);
     background-attachment: fixed;
     background-color: var(--primary-main-bg);
 }
@@ -119,7 +119,7 @@ header {
         color: var(--blue-text);
     }
     nav{
-        background-image: url(/icons/menu.svg);
+        background-image: url(/noteapp/icons/menu.svg);
         background-repeat: no-repeat;
         background-position: 50% 0%;
         >*{
@@ -147,7 +147,7 @@ header {
             aspect-ratio: 1;
             width: 100%;
             &.deleteAll{
-                background-image: url(/icons/delete.svg);
+                background-image: url(/noteapp/icons/delete.svg);
                 background-repeat: no-repeat;
                 background-position: 50%;
                 &:hover{
@@ -175,7 +175,7 @@ header {
     bottom: 0;
     right: 0;
     cursor: pointer;
-    background-image: url(/icons/plus.svg);
+    background-image: url(/noteapp/icons/plus.svg);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -189,7 +189,7 @@ header {
         transition-property: transform backgroung;
         transition: 500ms ease-out;
         transform: rotateZ(180deg);
-        background-image: url(/icons/plusgreen.svg);
+        background-image: url(/noteapp/icons/plusgreen.svg);
         background-position: 50%;
         background-size: 80%;
     }
@@ -216,7 +216,7 @@ header {
 .add-tag {
     aspect-ratio: 1;
     width: 3ch;
-    background-image: url(/icons/plus.svg);
+    background-image: url(/noteapp/icons/plus.svg);
 }
 
 .tag-wrapper {
