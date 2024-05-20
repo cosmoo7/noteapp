@@ -31,7 +31,7 @@ function renderNotes() {
 function addNote() {
     const modal = document.getElementById('note-modal');
     document.getElementById('title').value = "";
-    document.getElementById('title').value = "";
+    document.getElementById('content').value = "";
     modal.showModal();
     document.getElementById('save-note-button').onclick = () => {
         const title = document.getElementById('title').value;
