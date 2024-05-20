@@ -30,6 +30,8 @@ function renderNotes() {
 }
 function addNote() {
     const modal = document.getElementById('note-modal');
+    document.getElementById('title').value = "";
+    document.getElementById('title').value = "";
     modal.showModal();
     document.getElementById('save-note-button').onclick = () => {
         const title = document.getElementById('title').value;
@@ -61,8 +63,6 @@ function editNote(index) {
             notes[index].content = content;
             localStorage.setItem('notes', JSON.stringify(notes));
             renderNotes();
-            title = "";
-            content = "";
             modal.close();
         }
     };
