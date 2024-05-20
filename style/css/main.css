@@ -106,8 +106,9 @@ main {
     }
 
     .content {
+        font-family: inherit;
         font-size: 1.2rem;
-        line-break: anywhere;
+        line-break: normal;
     }
 }
 
