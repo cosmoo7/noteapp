@@ -17,9 +17,6 @@ function renderNotes() {
                 <div class="buttons">
                     <button class="delete" onclick="deleteNote(${index})">Delete</button>
                     <button class="edit" onclick="editNote(${index})">Edit</button>
-                    <button class="add-tag">
-                        <option value="blue">blue</option>
-                    </button>
                     </div>
                     <figure class="tag-wrapper"></figure>
                 <div class="note-wrapper">
