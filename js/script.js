@@ -61,6 +61,8 @@ function editNote(index) {
             notes[index].content = content;
             localStorage.setItem('notes', JSON.stringify(notes));
             renderNotes();
+            title = "";
+            content = "";
             modal.close();
         }
     };
