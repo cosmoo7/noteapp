@@ -68,6 +68,13 @@ function editNote(index) {
     };
 }
 renderNotes();
+function DeleteAllNotesAlert() {
+    alertSeen = localStorage.getItem('alertSeen') || false;
+    if (alertSeen == false) {
+	window.alert("Double click to confirm deletion");
+	localStorage.setItem('alertSeen', true)
+    }
+}
 function DeleteAllNotes() {
     localStorage.removeItem('notes');
     location.reload();
